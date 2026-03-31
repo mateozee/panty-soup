@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — This Page Got Lost in the Soup | Panty Soup</title>
+  <meta name="description" content="You found a page that doesn't exist. Congratulations. Even we couldn't mess up this badly on purpose.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo" aria-label="Panty Soup Home">PANTY SOUP</a>
+      <ul class="nav__links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 404 Content -->
+  <section class="four-oh-four">
+    <div class="container">
+      <p class="four-oh-four__code">404</p>
+      <h1>This Page Got Lost in the Soup</h1>
+      <p class="four-oh-four__message">
+        Whatever you were looking for, it's not here. It might have never been here.
+        We're not sure. Existence is complicated.
+      </p>
+      <a href="/" class="btn btn--primary">Back to Safety</a>
+      <a href="/blog/" class="btn btn--outline" style="margin-left: 1rem;">Read the Blog</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__brand">PANTY SOUP</p>
+      <ul class="footer__links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <p class="footer__copy">&copy; <span id="year"></span> Panty Soup. All rights reserved. Yes, really.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
